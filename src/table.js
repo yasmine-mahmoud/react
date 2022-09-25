@@ -13,7 +13,7 @@ function Table(props) {
 								<td>{obj.id}</td>
 								<td>{obj.title}</td>
 								<Button index={index} id={index} color="red" onClick={props.delete}>
-									Delete
+									delete
 								</Button>
 							</tr>
 						);
