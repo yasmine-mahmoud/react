@@ -19,7 +19,7 @@ function App() {
 	useEffect(() => {
 		getmovies();
 	}, []);
-
+	//delete movies
 	const deletemovies = (id) => {
 		console.log(id.target.id);
 		let newState = [...data];
